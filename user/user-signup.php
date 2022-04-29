@@ -124,8 +124,7 @@ return true;
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
-                    <img src="images/reg.jpg" alt=""style="margin-right: 0px;margin-left: 645px;">
-                    <img src="images/png3 .png" alt=""style="margin-right: 0px;margin-left: 645px;">
+                    <img src="images/png3 .png" alt=""style="margin-right: 0px;margin-left: 645px; width: 555px; height: 497px;">
                 </div>
                 <div class="col-lg-6 p-t-100" style="margin-left: 0px;border-left-width: 0px;padding-left: 0px;padding-right: 42px;border-right-width: 0px;margin-right: 0px;right: 518px;bottom: 139px;">
                     <div class="text-white">

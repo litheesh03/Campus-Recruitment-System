@@ -97,13 +97,14 @@ if(isset($_POST['login']))
     <div id="primary" class="blue4 p-t-b-100 height-full responsive-phone">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6">
-                    <img src="assets/img/icon/icon-plane.png" alt="">
+                <div class="col-lg-6"> 
+                <link href='https://pngtree.com/so/recruitment'></a>
+                    <img src="images/logcom.png" alt="">
                 </div>
                 <div class="col-lg-6 p-t-100">
                     <div class="text-white">
-                        <h1>Welcome</h1>
-                        <p class="s-18 p-t-b-20 font-weight-lighter">Hey Buddies Welcome to Campus Recruitment Management!</p>
+                        <h1>Welcome!</h1>
+                        <p class="s-18 p-t-b-20 font-weight-lighter">sign in to start Recruitment process!</p>
                     </div>
                    <form method="post" action="">
                     <p style="font-size:16px; color:red" align="center"> <?php if($msg){
@@ -122,7 +123,7 @@ if(isset($_POST['login']))
                                 </div>
                             </div>
                             <div class="col-lg-12">
-                                <input type="submit" class="btn btn-success btn-lg btn-block" name="login" value="Let me enter">
+                                <input type="submit" class="btn btn-success btn-lg btn-block" name="login" value="Let's GO">
                                 <p class="forget-pass text-white"><a href="forgot-password.php"> Have you forgot your password ?</a>  <a href="comp-signup.php" style="padding-left: 250px"> Sign Up!!</a></p>
                                 <p class="forget-pass text-white"><a href="../index.php"> Back to Home!!</a></p>
                             </div>

@@ -1,7 +1,7 @@
 <aside class="main-sidebar fixed offcanvas shadow">
     <section class="sidebar">
         <div class="w-80px mt-3 mb-3 ml-3">
-<h2 align="center">CRMS</h2>
+<h2 align ="center">JNN CRMS</h2>
         </div>
         <div class="relative">
             <a data-toggle="collapse" href="#userSettingsCollapse" role="button" aria-expanded="false"

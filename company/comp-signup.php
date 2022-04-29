@@ -137,12 +137,13 @@ return true;
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
-                    <img src="assets/img/icon/company-registration.jpg" height="700" width="600" alt="">
+                <link href='https://pngtree.com/so/the'></a>
+                    <img src="images/com.png" height="700" width="600" alt="">
                 </div>
                 <div class="col-lg-6 p-t-100">
                     <div class="text-white">
-                        <h1>Welcome</h1>
-                        <p class="s-18 p-t-b-20 font-weight-lighter">Welcome to Campus Recruitment Management System</p>
+                        <h1>Company Registration</h1>
+                        <p class="s-18 p-t-b-20 font-weight-lighter">signup here to start your Recruitemnt process</p>
                     </div>
                    <form method="post" action="" name="signup" method="post" onsubmit="return checkpass();" enctype="multipart/form-data">
                     <p style="font-size:16px; color:red" align="center"> <?php if($msg){

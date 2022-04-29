@@ -97,12 +97,12 @@ if(isset($_POST['login']))
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
-                    <img src="assets/img/icon/icon-plane.png" alt="">
+                    <img src="assets/img/icon/admin.png" alt="">
                 </div>
                 <div class="col-lg-6 p-t-100">
                     <div class="text-white">
-                        <h1>Welcome</h1>
-                        <p class="s-18 p-t-b-20 font-weight-lighter">Hey Buddies Welcome to Campus Recruitment Management System AdminPanel !</p>
+                        <h1></h1>
+                        <p class="s-18 p-t-b-20 font-weight-lighter">JNN AdminPanel !</p>
                     </div>
                    <form method="post" action="">
                     <p style="font-size:16px; color:red" align="center"> <?php if($msg){
