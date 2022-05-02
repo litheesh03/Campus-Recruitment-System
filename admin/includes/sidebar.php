@@ -72,6 +72,8 @@ $name=$row['AdminName'];
                     </li>
                     <li><a href="contact-us.php"><i class="icon icon-add"></i>Contact Us</a>
                     </li>
+                    <li><a href="drives.php"><i class="icon icon-add"></i>Campus drive updation</a>
+                    </li>
                     
                 </ul>
             </li>

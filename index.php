@@ -60,19 +60,25 @@ include('includes/dbconnection.php');
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 <!------ Include the above in your HEAD tag ---------->
+<?php 
+ $query=mysqli_query($con,"select * from  drive where PageType='aboutus'");
+ while ($row=mysqli_fetch_array($query)) {
 
+
+ ?>
 <div class="onoffswitch3">
     <input type="checkbox" name="onoffswitch3" class="onoffswitch3-checkbox" id="myonoffswitch3" checked>
     <label class="onoffswitch3-label" for="myonoffswitch3">
         <span class="onoffswitch3-inner">
             <span class="onoffswitch3-active">
-                <marquee class="scroll-text">ZOHO<span class="glyphicon glyphicon-forward"></span> 6LAKH CTC <span class="glyphicon glyphicon-forward"></span> For CSE Department</marquee>
+                <marquee class="scroll-text"><?php  echo $row['PageDescription'];?><span class="glyphicon glyphicon-forward"></span><?php  echo $row['PageTitle'];?><span class="glyphicon glyphicon-forward"></span><?php  echo $row['CompanyRegdate'];?></marquee>
                 <span class="onoffswitch3-switch">New Campus Drive <span class="glyphicon glyphicon-remove"></span></span>
             </span>
             <span class="onoffswitch3-inactive"><span class="onoffswitch3-switch">SHOW BREAKING NEWS</span></span>
         </span>
     </label>
 </div>
+<?php } ?>
     <!--job -->
   
     <!--//job -->
