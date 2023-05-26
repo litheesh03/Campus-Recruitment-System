@@ -29,4 +29,4 @@ The Campus Recruitment System is licensed under the MIT License.
 
 ## Contact
 
-If you have any questions or feedback, please contact the project maintainers at [email protected]
+If you have any questions or feedback, please contact the project maintainers at litheesh03@gmail.com
